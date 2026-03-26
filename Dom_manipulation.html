@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .newClass{
+                   color: red; 
+                   background-color: yellow;
+          }
+
+          .hello{
+                   color: blue;
+                   background-color: lightgray;
+          }
+
+    </style>
+    
+</head>
+<body>
+    <p id="changeContent">Original content</p>
+    <p id="changeContent1">Original text content</p>
+
+    <button onclick="changeContent()">Change Content</button>
+
+
+        <div id="idd" class="hello">Example of add class ,remove class and toggle class</div>
+        <button onclick="addClass()">Add Class</button>
+        <button onclick="removeClass()">Remove Class</button>
+        <button onclick="toggleClass()">Toggle Class</button>
+        <button onclick="checkClass()">Check Class</button>
+
+
+        <!--setting styles-->
+        <div id="styleElement">Example of setting styles</div>
+        <button onclick="setStyles()">Set Styles</button>
+
+        
+
+    <script src="DOM_Manipulation.js"></script>
+</body>
+</html>
